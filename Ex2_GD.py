@@ -61,7 +61,3 @@ print(f'R2 score of the model is {r2},Mean Square Error of the model is {mse}')
 plt.scatter(x_test,y_test)
 plt.plot(x_test,pred)
 plt.show()
-'''
-plt.scatter(x, y)
-plt.plot([min(x), max(x)], [min(pred), max(pred)], color='red')  # regression line
-plt.show()'''
